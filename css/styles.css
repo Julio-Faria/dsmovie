@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
+/* coloca estilização em todo conteudo html*/
 * {
+    box-sizing: border-box; /*borda dos elementos não ocupam espaços*/
     font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    background-color: #ddd;
+}
+
+header {
+    background-color: #4D41C0;
+    color: #fff;
+}
+
+nav { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover { /*:hover "quando passar o omouse em cima*/
+    text-decoration: none; /*tira decoração do text*/
+    color: unset; /*tira cor do link*/
+    
 }
