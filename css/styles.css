@@ -6,6 +6,7 @@
     --color-primary:#4D41C0;
     --white:#fff;
     --text-light-gray: #aaa;
+    --star-color: #FFBB3A;
     
 }
 
@@ -86,7 +87,7 @@ a, a:hover { /*:hover "quando passar o mouse em cima*/
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    min-height: 150px;
+    height: 220px;
     
 }
 
@@ -96,6 +97,31 @@ a, a:hover { /*:hover "quando passar o mouse em cima*/
     margin-bottom: 25px;
 
 }
+
+.dsmovie-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.dsmovie-card-description-bottom h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-color);
+}
+
+.dsmovie-card-description-bottom p {
+    color: var(--text-light-gray);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.dsmovie-card-description-bottom img {
+    width: 22px;
+}
+
 
 .dsmovie-btn, .dsmovie-btn:hover {
     width: 180px;
